@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Greet = () => {
+const Greet = (props) => {
   return (
-    <div>Hello World!!</div>
+    <div>Hi I'm {props.name}!</div>
   )
 }
 
