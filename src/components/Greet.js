@@ -2,7 +2,7 @@ import React from 'react'
 
 const Greet = (props) => {
   return (
-    <div>Hi I'm {props.name}!</div>
+    <div className="text-3xl font-bold underline">Hi I'm {props.name}!</div>
   )
 }
 
