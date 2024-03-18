@@ -1,10 +1,11 @@
-import './App.css';
+import Counter from './components/Counter';
 import Greet from './components/Greet';
 
 function App() {
   return (
-    <div className="App">
+    <div className="max-w-screen-lg mx-auto">
       <Greet name='Bridget'/>
+      <Counter />
     </div>
   );
 }
