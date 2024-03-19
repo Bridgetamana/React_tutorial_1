@@ -33,7 +33,7 @@ const NameList = () => {
     <div className="text-center py-12">
         {
             persons.map(person => (
-                <h2>I am {person.name}, I am {person.age} years old and I know {person.skill}</h2>
+                <h2 key={person.id}>I am {person.name}, I am {person.age} years old and I know {person.skill}</h2>
             ))
         }
     </div>
