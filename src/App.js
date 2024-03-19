@@ -1,11 +1,15 @@
+import ClassClick from './components/ClassClick';
+import Click from './components/Click';
 import Counter from './components/Counter';
 import Greet from './components/Greet';
 
 function App() {
   return (
-    <div className="max-w-screen-lg mx-auto">
-      <Greet name='Bridget'/>
-      <Counter />
+    <div>
+      <Click />
+      <ClassClick />
+      {/* <Greet name='Bridget'/>
+      <Counter /> */}
     </div>
   );
 }
